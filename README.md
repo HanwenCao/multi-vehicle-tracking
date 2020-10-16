@@ -8,7 +8,7 @@ bash test_env.sh
 bash ./train.sh;
 bash ./test_ruiyan.sh
 ```
-Below is the ReadMe of ELECTRICITY-MTMC.
+Below is the README of ELECTRICITY-MTMC.
 ```bib
 @InProceedings{Qian_2020_CVPR_Workshops,
 author = {Qian, Yijun and Yu, Lijun and Liu, Wenhe and Hauptmann, Alexander G.},
