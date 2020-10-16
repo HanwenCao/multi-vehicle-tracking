@@ -1,0 +1,19 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+from .aic_test import aic_test
+from .aic import Aic
+from .aic_crop import Aic_crop
+
+__imgreid_factory = {
+    'aic_test': aic_test,  #测试集（infer）
+    'Aic':Aic,  #训练集
+    'Aic_crop':Aic_crop, # crop训练集
+}
+
+
+def init_imgreid_dataset(name, **kwargs):
+    if name not in list(__imgreid_factory.keys()):
+        raise KeyError('Invalid dataset, got "{}", but expected to be one of {}'.format(name, list(__imgreid_factory.keys())))
+    return __imgreid_factory[name](**kwargs)
