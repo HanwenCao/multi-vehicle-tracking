@@ -1,7 +1,7 @@
 This is a repo for independent learning. Tons of code was borrowed from [ELECTRICITY-MTMC](https://github.com/KevinQian97/ELECTRICITY-MTMC) and [VOC-ReID](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)
 
 
-What I did was to slightly improve its performance(measured by IDF1) by about 6%. <br>
+What I did was to slightly improve its performance(measured by IDF1) by about 5%. <br>
 ```
 cd /ELECTRICITY-MTMC/
 bash test_env.sh
