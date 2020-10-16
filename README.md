@@ -1,8 +1,10 @@
-# ELECTRICITY: An Efficient Multi-camera Vehicle Tracking System for Intelligent City
+This is a repo for independent learning. Tons of code was borrowed from here:<br>
+https://github.com/KevinQian97/ELECTRICITY-MTMC
 
-Authors: Yijun Qian, Lijun Yu, Wenhe Liu, Alexander G Hauptmann
-
-Email: yijunqia@andrew.cmu.edu, lijun@cmu.edu
+What I did was to slightly improve its performance(measured by IDF1) by about 6%. <br>
+```
+cd /ELECTRICITY-MTMC/;bash test_env.sh;bash ./train.sh
+```
 
 ```bib
 @InProceedings{Qian_2020_CVPR_Workshops,
@@ -104,3 +106,4 @@ The speed is tested on four 2080Ti GPUs.
 ## License
 
 See `LICENSE`. Please read before use.
+
